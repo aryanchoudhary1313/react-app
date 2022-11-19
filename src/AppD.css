@@ -1,0 +1,16 @@
+@media (min-width: 3000px) {
+  body {
+    width: 2560px;
+  }
+  .header-items,
+  .extra-text-page {
+    width: 2048px;
+  }
+  .page-one-bg,
+  footer {
+    background: var(--background-color-lighter);
+  }
+  .page-one {
+    min-height: auto;
+  }
+}

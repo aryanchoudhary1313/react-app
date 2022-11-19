@@ -1,0 +1,108 @@
+@media (max-aspect-ratio: 1/1) or (max-width: 900px) {
+  .journals-page {
+    width: 90%;
+    display: flex;
+    column-gap: 0em;
+    padding-top: 1em;
+  }
+  .journal-page-comps {
+    padding: 1em;
+    flex: 1;
+  }
+
+  /*          Mobile List          */
+
+  .mobile-filter-list {
+    z-index: 600;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 5em;
+    width: 90%;
+    background-color: var(--bg-very-light);
+  }
+  .mobile-list-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    cursor: pointer;
+  }
+  .mobile-side-list {
+    padding: 1em;
+    border-top: 1px solid var(--header-text-active);
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-list-item {
+    padding: 1em;
+    border-radius: 0.5em;
+    transition: background-color 0.3s ease-in-out;
+    color: var(--header-text-inactive);
+  }
+  .mobile-list-item:hover {
+    color: var(--header-text-active);
+  }
+
+  /*          Header Styles               */
+  .sub-filters {
+    margin-bottom: 1em;
+  }
+  .sub-filters span {
+    padding-inline-end: 0em;
+  }
+  .comp-page-s-header {
+    column-gap: 0em;
+  }
+  .comp-page-header {
+    flex-wrap: wrap;
+    row-gap: 1em;
+    column-gap: 1em;
+    padding: 1em;
+  }
+  .comp-page-search-field {
+    width: 100%;
+  }
+  .comp-page-search-field input {
+    box-sizing: border-box;
+    border-radius: 2em;
+    padding-block: 0.7em;
+    width: 100%;
+    box-shadow: 0 0 1em var(--box-shadow-dark);
+  }
+  .itemsperpage,
+  .comp-page-search-by {
+    box-sizing: border-box;
+    flex: 1;
+    border-radius: 0.5em;
+    padding-inline: 1em;
+  }
+
+  /*        Box Details       */
+
+  .journals-page-box-all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*             POP UP         */
+
+  .journal-popup {
+    width: 90%;
+  }
+
+  /*              Journal Info Page              */
+
+  .journal-extra-page {
+    width: 90%;
+  }
+}
+
+@media (min-width: 3000px) {
+  .journals-page {
+    min-height: auto;
+  }
+  .journal-popup {
+    width: 600px;
+    height: 30%;
+    top: -50%;
+  }
+}

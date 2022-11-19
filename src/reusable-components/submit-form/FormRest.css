@@ -1,0 +1,39 @@
+.response-msg {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 999999999;
+  right: 1em;
+  padding: 1em;
+  padding-inline: 2em;
+  border-radius: 1em;
+  top: 6em;
+  width: 24em;
+  background-color: #1dff77;
+  max-width: 90vw;
+  display: flex;
+  align-items: center;
+  column-gap: 2em;
+  box-shadow: 0 0 1em var(--box-shadow);
+}
+.response-error-msg {
+  box-sizing: border-box;
+  position: fixed;
+  right: 1em;
+  padding: 1em;
+  z-index: 999999999;
+  border-radius: 1em;
+  padding-inline: 2em;
+  top: 6em;
+  width: 24em;
+  display: flex;
+  align-items: center;
+  column-gap: 2em;
+  max-width: 90%;
+  background-color: red;
+  box-shadow: 0 0 1em var(--box-shadow);
+  color: black;
+}
+img[alt="restresponse"] {
+  height: 3em;
+  filter: var(--svg-invert);
+}
