@@ -11,7 +11,6 @@ import { Route, Routes } from "react-router-dom";
 import Support from "./components/Support";
 import Terms from "./components/Terms";
 import ScrollToTop from "./components/ScrollToTop";
-import Tawk from "./components/Tawk";
 import Submit from "./reusable-components/submit-form/Submit";
 import FormResponses from "./reusable-components/submit-form/FormResponses";
 import JournalInfo from "./reusable-components/journals/JournalInfo";
@@ -108,7 +107,6 @@ function App() {
         </Routes>
         <Footer header={header} />
       </div>
-      <Tawk />
     </div>
   );
 }
